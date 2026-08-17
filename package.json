@@ -1,0 +1,15 @@
+{
+  "name": "fresh-android",
+  "version": "0.1.0",
+  "description": "Android development workflow plugin for Fresh IDE, inspired by droid.nvim.",
+  "type": "plugin",
+  "license": "MIT",
+  "fresh": {
+    "plugins": [
+      {
+        "id": "fresh-android",
+        "entry": "plugins/android.ts"
+      }
+    ]
+  }
+}

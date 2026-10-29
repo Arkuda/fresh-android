@@ -1,9 +1,16 @@
 {
   "name": "fresh-android",
-  "version": "0.1.0",
-  "description": "Android development workflow plugin for Fresh IDE, inspired by droid.nvim.",
+  "version": "0.2.0",
+  "description": "Android SDK, Gradle, devices, emulators and Logcat workflows for Fresh IDE.",
   "type": "plugin",
   "license": "MIT",
+  "scripts": {
+    "check": "tsc -p tsconfig.json",
+    "test": "node --test tests/*.test.ts"
+  },
+  "devDependencies": {
+    "typescript": "^5.9.3"
+  },
   "fresh": {
     "plugins": [
       {
